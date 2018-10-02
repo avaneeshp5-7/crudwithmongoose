@@ -1,0 +1,5 @@
+const http=require("http")
+const app=require("./app/app")
+const server=http.createServer(app)
+server.listen(1234)
+console.log("Running 1234")
